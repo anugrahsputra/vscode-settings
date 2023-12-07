@@ -1,0 +1,130 @@
+/* 
+
+This settings file is for my personal use, but feel free to use it if you want to.
+
+*/
+
+{
+    /* ---------------------> workbench settings <--------------------- */
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.enablePreview": false,
+    "workbench.layoutControl.type": "menu",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 7,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.activityBar.location": "top",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.startupEditor": "none",
+    "explorer.openEditors.visible": 1,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.tree.renderIndentGuides": "always",
+    
+    /* ---------------------> editor settings <--------------------- */
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.maxColumn": 100,
+    "editor.inlineSuggest.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "JetBrainsMono Nerd Font, 'Courier New', monospace",
+    "editor.fontWeight": "300",
+    "editor.lineHeight": 20,
+    "editor.letterSpacing": 0.5,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.scrollbar.horizontalScrollbarSize": 1,
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.suggestLineHeight": 15,
+    "editor.parameterHints.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "editor.renderLineHighlight": "none",
+    "editor.lineNumbers": "on",
+    "editor.hover.sticky": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    },
+    "editor.tokenColorCustomizations": {
+      "[Tokyo Night]": {
+        "textMateRules": [
+          {
+            "scope": [
+              "comment",
+              "meta.var.expr storage.type",
+              "keyword.control.flow",
+              "keyword.control.return",
+              "meta.directive.vue punctuation.separator.key-value.html",
+              "meta.directive.vue entity.other.attribute-name.html",
+              "tag.decorator.js entity.name.tag.js",
+              "tag.decorator.js punctuation.definition.tag.js",
+              "storage.modifier"
+            ],
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+      }
+    },
+  
+    /* ---------------------> dart settings <--------------------- */
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [],
+      "editor.selectionHighlight": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "on",
+      "editor.wordBasedSuggestions": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "dart.showInspectorNotificationsForWidgetErrors": true,
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": true,
+  
+    /* ---------------------> GitHub Copilot settings <--------------------- */
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false,
+      "yaml": true,
+      "dart": false,
+      "xml": true
+    },
+  
+    /* ---------------------> debug settings <--------------------- */
+    "debug.toolBarLocation": "commandCenter",
+    "debug.openDebug": "openOnDebugBreak",
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.enableStatusBarColor": true,
+  
+    /* ---------------------> terminal settings <--------------------- */
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', 'Courier New', monospace",
+    "terminal.integrated.profiles.osx": {
+      "zsh": {
+        "path": "/bin/zsh",
+        "args": [
+          "-l",
+          "-i"
+        ]
+      }
+    },
+  
+    /* ---------------------> other settings <--------------------- */
+    "markdown.updateLinksOnFileMove.enabled": "prompt",
+    "window.newWindowDimensions": "inherit",
+    "git.confirmSync": false,
+    "codesnap.transparentBackground": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "diffEditor.codeLens": true
+  }
